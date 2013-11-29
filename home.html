@@ -1,0 +1,20 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css" />
+<script type="text/javascript" src="script.js" >
+</script>
+</head>
+<body>
+<script>
+var t = new initApp("div","siddDiv","siddClass",true);  //ElementType,eleID,eleClass, true/false  if true then output on browser
+
+    t.applyDimension();
+    t.testDraw();  //Test 2d Capabilities of a Viewport
+    t.initVideo("siddVideo","siddVideoClass",300,420,true);  // videoID,videoClass,width,Height,ShowControls
+    t.initLive(true,true,true,true);  //parameters for is Video ,Mic,DisplayControl on Video,Autoplay video
+</script>
+</body>
+</html>
