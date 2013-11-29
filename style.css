@@ -1,0 +1,28 @@
+/* Siddharth Chandra
+   Email : Siddmegadeth@gmail.com /siddmegadeth@outlook.com
+   Project Name : Firefox Play(Firefox OS Browser Simulator)
+   Date Of First Build :29/11/2013
+   Anyone using this code has the right to modify/distribute this code
+   for development purpose/Educational use while keeping the project
+   creator name included with above information as mandatory 
+   
+*/ 
+
+.siddClass
+{
+   
+   background: linear-gradient(50Deg,black,white);
+   background: -webkit-linear-gradient(50Deg,black,white);
+   background: -moz-linear-gradient(50Deg,black,white);
+
+
+}
+
+
+.siddVideoClass
+{
+  
+  background:black;
+  position:relative;
+
+}
